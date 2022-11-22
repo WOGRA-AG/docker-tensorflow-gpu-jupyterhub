@@ -34,7 +34,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: wogra/ludwig-ray-gpu-jupyterhub
+          images: wogra/tensorflow-gpu-jupyterhub
           tabs: |
             # branch event
             type=ref,event=branch
